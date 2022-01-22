@@ -16,12 +16,13 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 TARGET_USES_BLUR := true
 #USE_PIXEL_CHARGING := true
 TARGET_BOOT_ANIMATION_RES := 1080
-#USE_AOSP_CLOCK := true
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
+
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
