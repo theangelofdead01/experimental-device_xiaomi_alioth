@@ -90,6 +90,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
+    
 
 # Lawnchair Launcher
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
